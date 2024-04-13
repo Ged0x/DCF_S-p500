@@ -7,4 +7,5 @@ The changes of stock price and implied share price are updated as according to F
 
 to run flask, in terminal, cd (folder path of project), python/python3 ui.py, go to http://127.0.0.1:5000 once live
 
-![Uploading Screenshot 2024-04-14 at 5.17.57 AM.png…]()
+
+<img width="1440" alt="Screenshot 2024-04-14 at 5 17 57 AM" src="https://github.com/Ged0x/DCF_S-p500/assets/143278786/3c58332e-76cf-43cd-b71f-e2460fab6b42">
