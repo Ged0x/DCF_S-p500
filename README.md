@@ -6,4 +6,5 @@ The DCF script will iterate through the S&P500 tickers to request each stocks im
 The changes of stock price and implied share price are updated as according to FMP Api which is every 1 minute
 
 to run flask, in terminal, cd (folder path of project), python/python3 ui.py, go to http://127.0.0.1:5000 once live
+
 ![Uploading Screenshot 2024-04-14 at 5.17.57 AM.png…]()
