@@ -1,7 +1,7 @@
 # DCF_S-p500
 Collects DCF implied share price of each stock in the S&P 500 using the FMP Api to determine if a stock is overvalued or undervalued based on it's current price, the API however does not have all json DCF data for every stock. 
 
-This will (hopefully) help automate valuation methods of available public listed stocks for users interested to invest in stocks included in the S&P 500.
+This will (hopefully) help automate screening of available public listed stocks for users interested to invest in stocks included in the S&P 500.
 
 dependencies:
 from flask import Flask, render_template_string
