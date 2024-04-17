@@ -27,7 +27,7 @@ def process_symbol(symbol):
             if share_price_value is None or dcf_value is None:
                 print(f'No data available for {symbol}')
             else:
-                difference = ((dcf_value - share_price_value) / share_price_value)
+                difference = ((share_price_value - dcf_value) / dcf_value)
                 dataframe.loc[dataframe['Ticker'] == symbol, 'Difference'] = difference
                 if difference > 0:
                     print(f'Undervalued by {difference:.2%}')
